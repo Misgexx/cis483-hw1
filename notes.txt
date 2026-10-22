@@ -1,0 +1,25 @@
+CIS 483 - Homework 1
+Student: Misgana Kebede
+
+Local workflow
+1. Created cis483-hw1, index.html, and notes.txt using PowerShell.
+2. Initialized the main branch with git init -b main.
+3. Added an HTML document with a title and a name heading.
+4. Added semantic main content and learning goals.
+5. Added these toolkit notes as a separate meaningful change.
+
+Useful commands
+  git status
+  git add index.html notes.txt
+  git commit -m "Describe the change"
+  git log --oneline
+  git push -u origin main
+
+Concepts
+GET retrieves a resource; DELETE removes one; PATCH updates selected fields.
+The URL fragment is handled by the browser and is not sent in an HTTP request.
+
+Sources and assistance
+MDN HTTP reference: https://developer.mozilla.org/en-US/docs/Web/HTTP
+Git documentation: https://git-scm.com/docs
+Prepared with OpenAI Codex assistance. Review all code and explanations.
